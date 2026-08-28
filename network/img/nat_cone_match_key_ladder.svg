@@ -1,0 +1,36 @@
+<svg width="680" height="300" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" role="img" font-family="'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <title>NAT 유형별 inbound 허용 검사 항목</title>
+  <desc>Full Cone에서 Symmetric으로 갈수록 검사하는 항목이 늘어나 엄격해진다</desc>
+
+  <rect x="222" y="43" width="84" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="264" y="60" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Ext Port</text>
+  <text x="40" y="54" fill="#2C2C2A" font-size="14" font-weight="500">Full Cone</text>
+  <text x="40" y="72" fill="#5F5E5A" font-size="12">External Port만 봄</text>
+
+  <rect x="222" y="103" width="84" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="264" y="120" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Ext Port</text>
+  <rect x="314" y="103" width="96" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="362" y="120" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Remote IP</text>
+  <text x="40" y="114" fill="#2C2C2A" font-size="14" font-weight="500">Restricted Cone</text>
+  <text x="40" y="132" fill="#5F5E5A" font-size="12">+ Remote IP</text>
+
+  <rect x="222" y="163" width="84" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="264" y="180" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Ext Port</text>
+  <rect x="314" y="163" width="96" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="362" y="180" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Remote IP</text>
+  <rect x="418" y="163" width="104" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="470" y="180" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Remote Port</text>
+  <text x="40" y="174" fill="#2C2C2A" font-size="14" font-weight="500">Port Restricted</text>
+  <text x="40" y="192" fill="#5F5E5A" font-size="12">+ Remote Port</text>
+
+  <rect x="222" y="223" width="84" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="264" y="240" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Ext Port</text>
+  <rect x="314" y="223" width="96" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="362" y="240" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Remote IP</text>
+  <rect x="418" y="223" width="104" height="34" rx="17" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text x="470" y="240" text-anchor="middle" dominant-baseline="central" fill="#3C3489" font-size="12">Remote Port</text>
+  <rect x="530" y="223" width="108" height="34" rx="17" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="584" y="240" text-anchor="middle" dominant-baseline="central" fill="#854F0B" font-size="12">외부포트 가변</text>
+  <text x="40" y="234" fill="#2C2C2A" font-size="14" font-weight="500">Symmetric</text>
+  <text x="40" y="252" fill="#5F5E5A" font-size="12">+ 세션마다 포트</text>
+</svg>
