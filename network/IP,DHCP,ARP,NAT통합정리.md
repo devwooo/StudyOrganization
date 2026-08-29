@@ -11,7 +11,7 @@
 
 ## 전체 흐름
 
-![네트워크 접속부터 인터넷 통신까지의 흐름](../img/network_basics_flow.svg)
+![네트워크 접속부터 인터넷 통신까지의 흐름](/img/network_basics_flow.svg)
 
 ### ① 접속 직후 — 나는 아직 이름이 없다
 

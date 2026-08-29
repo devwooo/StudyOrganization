@@ -21,7 +21,7 @@ Internal IP:Port  ↔  External IP(global):Port   (1:1 매핑)
 
 ## 3. 동작 흐름
 
-![Full Cone NAT 개방 접속 동작](../img/full_cone_nat_diagram.svg)
+![Full Cone NAT 개방 접속 동작](..//img/full_cone_nat_diagram.svg)
 
 - **내부 PC → 공유기**: `192.168.0.1:3000`을 `3.3.3.3:23000`으로 변환해 내보낸다.
 - **공유기 ↔ 서버**: 연결된 서버와 정상적으로 양방향 통신한다.
@@ -38,7 +38,7 @@ Symmetric과의 결정적 차이는 **Remote IP / Remote Port / Protocol이 전�
 
 ## 5. Symmetric과의 비교
 
-![Symmetric와 Full Cone의 외부 포트 배정 비교](../img/symmetric_vs_fullcone_mapping.svg)
+![Symmetric와 Full Cone의 외부 포트 배정 비교](..//img/symmetric_vs_fullcone_mapping.svg)
 
 | 구분 | 내부↔외부 포트 | Remote 검사 | NAT Table Remote | 보안성 |
 |------|---------------|------------|------------------|--------|

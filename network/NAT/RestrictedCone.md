@@ -53,7 +53,7 @@ External Port + Remote IP + Remote **Port** 를 검사한다. **IP와 Port가 �
 
 Full Cone → Restricted → Port Restricted → Symmetric으로 갈수록 **검사 항목이 하나씩 늘어나** 더 엄격해진다.
 
-![NAT 유형별 inbound 허용 검사 항목](../img/nat_cone_match_key_ladder.svg)
+![NAT 유형별 inbound 허용 검사 항목](..//img/nat_cone_match_key_ladder.svg)
 
 | 유형 | 검사 항목 | 같은 IP·다른 Port 접속 | 보안성 |
 |------|-----------|:---:|:---:|

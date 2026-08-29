@@ -41,7 +41,7 @@ IPSec 통신을 하기 위해 정의하는 **파라미터들(프로토콜 · 알
 
 ## 재택근무 예시 = GtoE (Gateway to Endpoint)
 
-![재택근무 GtoE 터널링 구조](../img/vpn_gtoe_tunnel.svg)
+![재택근무 GtoE 터널링 구조](/img/vpn_gtoe_tunnel.svg)
 
 1. 자택 PC에서 **VPN Client 프로그램**에 접속하면 **새로운 IP를 부여**받는다.
 2. VPN Client가 부여받은 IP로 **해당 지사 SG(Security Gateway)와 터널링**을 맺는다.

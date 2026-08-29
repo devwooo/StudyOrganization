@@ -11,7 +11,7 @@
 
 ## 2. 동작 흐름
 
-![Symmetric NAT 패킷 필터 동작](../img/symmetric_nat_diagram.svg)
+![Symmetric NAT 패킷 필터 동작](..//img/symmetric_nat_diagram.svg)
 
 - **내부 PC → 공유기**: 요청이 나갈 때 공유기가 `192.168.0.1:3000`을 `3.3.3.3:23000`으로 변환해 내보낸다.
 - **공유기 ↔ 서버**: 연결된 서버(`10.10.10.10:50000`)와는 매핑이 존재하므로 양방향 통신이 정상적으로 이루어진다.
@@ -34,7 +34,7 @@
 - **Symmetric (1:N)**: 목적지가 바뀔 때마다 외부 포트를 새로 발급한다. 그래서 하나의 내부 소켓에서 외부 포트가 여러 개 생긴다.
 - **Full Cone (1:1)**: 어느 서버와 통신하든 외부 포트를 하나로 고정해 재사용한다.
 
-![Symmetric와 Full Cone의 외부 포트 배정 비교](../img/symmetric_vs_fullcone_mapping.svg)
+![Symmetric와 Full Cone의 외부 포트 배정 비교](..//img/symmetric_vs_fullcone_mapping.svg)
 
 위 그림처럼 Symmetric에서는 서버 A로 갈 땐 `23000`, 서버 B로 갈 땐 `23001`로 **외부 포트가 세션마다 달라진다.** 목적지마다 별도의 매핑 행이 생기기 때문에, NAT Table의 Remote 칸도 `10.10.10.10:50000`처럼 **구체적인 값**으로 채워진다.
 
