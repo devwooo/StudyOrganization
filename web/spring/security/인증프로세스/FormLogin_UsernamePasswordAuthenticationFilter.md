@@ -14,6 +14,7 @@ HttpSecurity.formLogin(httpSecurityFormLoginConfigurer -> httpSecurityFormLoginC
         - action을 loginProcessingUrl과 맞추는 순간, UsernamePasswordAuthenticationFilter가 요청을 가로채서 정해진 흐름(RequestMatcher → 토큰 생성 → AuthenticationManager → 성공/실패 핸들러)을 자동으로 태웁니다.
         - 직접 인증 처리를 하려면 해당 옵션은 필요 없고 loginForm의 action을 처리할 URL을 컨트롤러에서 맵핑해서 처리하면됩니다.
         - 한줄 요약 action == loginProcessingUrl = 필터가 알아서 인증 / 컨트롤러 매핑 = 내가 직접 인증.
+        - action, loginProcessingUrl, controller URL 까지 모두 같으면, 필터가 우선되므로 controller 맵핑된 URL은 무시됨
     .defaultSuccessUrl("/", alwaysUse)
     .failureUrl("/failed")
     .usernameParameter("username")
